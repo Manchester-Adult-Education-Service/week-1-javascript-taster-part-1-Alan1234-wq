@@ -36,8 +36,9 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
-
-
+console.log("welcome to javascipt!");
+let user_name = "Tony"
+console.log("Hello " + user_name);
 
 // -----------------------------------------------------------
 // Task 2: Basic Arithmetic (The Calculator)
