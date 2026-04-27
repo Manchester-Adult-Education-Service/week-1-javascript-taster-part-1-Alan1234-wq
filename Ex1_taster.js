@@ -124,7 +124,9 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
-
+let myNumber = 10
+let result = myNumber * myNumber
+console.log("Result :", result);
 
 
 // Extension 2: Score Tracker
@@ -138,6 +140,13 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
+let score = 0;
+let userAnswer = 10;
+if (userAnswer === 10){
+     score += 10;
+     console.log("total number" + score);
+}
+
 
 
 
@@ -152,8 +161,11 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
-
-
+let myWord = "JavaScript";
+let wordLength = myWord.length;
+if (wordLength > 5) {
+    console.log("That's a long word!");
+}
 
 // -----------------------------------------------------------
 // SAVING YOUR WORK
