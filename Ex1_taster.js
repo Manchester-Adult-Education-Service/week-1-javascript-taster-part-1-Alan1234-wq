@@ -201,6 +201,27 @@ Create a chatbot logic that uses nested IF statements and a 'status' check.
 */
 
 // Write your code below:
+let userMood = "hungry";
+let hoursSleep = 5;
+if (userMood === "tired") {
+     if (hoursSleep < 6) {
+         console.log("Go to bed!");
+     } else {
+          console.log("Maybe you need more caffeine?")
+     }
+} else if (userMood === "happy") {
+     console.log("keep that energy up!");
+} else if (userMood === "hungry") {
+     let likesPizza = true;
+
+     if (likesPizza) {
+          console.log("Order a Margherita!");
+     } else {
+          console.log("How about a salad?")
+     }
+} else {
+     console.log ("I'm not sure how to help with that mood yet.");
+}
 
 
 
